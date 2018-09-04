@@ -1,10 +1,10 @@
 body, html {
-  background-image: url('file:///D:/WebProjects/MyFirstWebPage/assets/70295433-material-wallpapers.jpg');
+  background-image: url('file:///D:/Android/Js/test-master/assets/70295433-material-wallpapers.jpg');
   background-repeat: no-repeat;
   position: absolute;
   background-size: cover;
   width: 100%;
-  height: 100% auto;
+  height: 100%;
   margin: 0;
 }
 
@@ -72,4 +72,65 @@ input[type="password"] {
 .btn-login:hover {
   background-color: rgba(250, 219, 216);
   color: rgba(240, 128, 128);
+}
+
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#37474F;
+    overflow-x: hidden;
+    transition: 0.5s;;
+}
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #37474F;
+	margin-top:5px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color:white;
+	background-color:#C45446;
+}
+
+
+/*
+#pager{
+  width: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  height: 300px;
+  text-align: center;
+  background-color: RGB(255, 160, 122, 0.2);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 10%;
+}
+*/
+#ifr{
+	text-align:center;
+	width:100%;
+	height:100%;
+}
+
+#main{
+	color:white;
+	background-color:#C45446;
+    transition: margin-left .5s;
+    padding: 16px;
 }

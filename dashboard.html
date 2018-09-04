@@ -4,11 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>DashBoard</title>
-  <script type="text/javascript" src="file:///D:/WebProjects/MyFirstWebPage/js/functionality.js"></script>
-  <link rel="stylesheet" type="text/css" href="file:///D:/WebProjects/MyFirstWebPage/css/theme.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/functionality.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/theme.css">
 
 <body>
+<div id="mySidenav" class="sidenav">
+  <a id="home" href="#">Home</a>
+  <a id="googleplay" href="#">Google play</a>
+  <a id="jetpack" href="#">jet pack</a>
+  <a id="blog" href="#">Documentation</a>
+</div>
+
+<div id="main" class="back">
+  <span style="font-size:25px;cursor:pointer" onclick="togglenav()">&#9776;</span>
+  </div>
+  
+<iframe id="ifr"  ></iframe>
 </body>
 
 </html>
